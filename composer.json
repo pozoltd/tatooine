@@ -2,7 +2,7 @@
   "name": "pozoltd/tatooine",
   "type": "symfony-bundle",
   "description": "core cms admin/ui stuff",
-  "license": "Tatooine License",
+  "license": "MIT license",
   "prefer-stable" : true,
   "minimum-stability" : "dev",
   "authors": [
