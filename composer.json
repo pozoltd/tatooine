@@ -1,0 +1,47 @@
+{
+  "name": "pozoltd/tatooine",
+  "type": "symfony-bundle",
+  "description": "core cms admin/ui stuff",
+  "license": "Tatooine License",
+  "prefer-stable" : true,
+  "minimum-stability" : "dev",
+  "authors": [
+    {
+      "name": "Weida Xue",
+      "email": "luckyweida@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "symfony/form": "^4.1",
+    "symfony/web-link": "^4.1",
+    "symfony/validator": "^4.1",
+    "symfony/security-bundle": "^4.1",
+    "symfony/twig-bundle": "^4.1",
+    "symfony/asset": "^4.1",
+    "zendframework/zend-code": "^3.3",
+    "symfony/serializer": "^4.1",
+    "symfony/expression-language": "^4.1"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^4.0",
+    "phpunit/phpunit": "^7.0"
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Tatooine\\" : ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tatooine\\Tests\\": "Tests/"
+    }
+  },
+  "repositories": [
+  ]
+}
